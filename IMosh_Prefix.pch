@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'IMosh' target in the 'IMosh' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import "ProtocolBuffers.h"
+#endif

@@ -1,0 +1,39 @@
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m: In function '-[NetworkNSTransportSender makeChaff]':
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:43: warning: control reaches end of non-void function
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m: In function '-[NetworkNSTransportSender calculateTimers]':
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:64: error: 'struct NSEnumerator' has no member named 'state'
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:65: error: 'ACTIVE_RETRY_TIMEOUT' undeclared (first use in this function)
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:65: error: (Each undeclared identifier is reported only once
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:65: error: for each function it appears in.)
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:66: error: request for member 'back' in something not a structure or union
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:66: warning: implicit declaration of function 'send_interval'
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:67: error: expected expression before 'uint64_t'
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:70: error: request for member 'front' in something not a structure or union
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:72: error: request for member 'back' in something not a structure or union
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:72: error: 'struct NetworkNSConnection' has no member named 'timeout'
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:72: error: 'ACK_DELAY' undeclared (first use in this function)
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:74: error: expected expression before 'uint64_t'
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:78: error: expected expression before 'uint64_t'
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:79: error: request for member 'back' in something not a structure or union
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m: In function '-[NetworkNSTransportSender initWithConnectionAndState::]':
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:99: warning: implicit declaration of function 'timestamped'
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m: In function '-[NetworkNSTransportSender waitTime]':
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:121: warning: control reaches end of non-void function
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m: In function '-[NetworkNSTransportSender shutdownAckTimedOut]':
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:180: warning: control reaches end of non-void function
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m: In function '-[NetworkNSTransportSender initWithTransportSender:]':
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:198: warning: control reaches end of non-void function
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m: In function '-[NetworkNSTransportSender assign:]':
+/Users/kxing/Desktop/IMosh/Network/TransportSender.m:201: warning: control reaches end of non-void function
+{standard input}:145:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000002$pb"
+{standard input}:145:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+{standard input}:141:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000002$pb"
+{standard input}:141:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+{standard input}:83:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+{standard input}:83:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+{standard input}:78:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"
+{standard input}:78:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_1
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
